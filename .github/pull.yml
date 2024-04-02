@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: upstream
+    upstream: westerveltco:main
+    mergeMethod: hardreset
+    mergeUnstable: true
